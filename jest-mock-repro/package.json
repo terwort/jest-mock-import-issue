@@ -1,0 +1,55 @@
+{
+  "name": "jest-mock-repro",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
+    "babel-jest": "^24.1.0",
+    "bootstrap": "^4.3.0",
+    "express": "^4.16.4",
+    "jest": "^24.1.0",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.11",
+    "material-design-icons": "^3.0.1",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-router": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "redis": "^2.8.0",
+    "redux": "^4.0.1",
+    "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest",
+      "^.+\\.jsx$": "babel-jest"
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
